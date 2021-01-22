@@ -30,3 +30,8 @@ If not, you can also download the following executables.
 | Windows | [x64](https://github.com/tommy-iasia/SplitLargeFile/blob/master/publish/win-x64/SplitLargeFile.exe) |
 | MacOS | [x64](https://github.com/tommy-iasia/SplitLargeFile/blob/master/publish/osx-x64/SplitLargeFile.exe) |
 | Linux | [x64](https://github.com/tommy-iasia/SplitLargeFile/blob/master/publish/linux-x64/SplitLargeFile.exe) |
+
+## Code
+This project bases on two key methods
+- *[GetOutputSizes](https://github.com/tommy-iasia/SplitLargeFile/blob/master/SplitLargeFile/Program.cs#L96)* generates sizes of output files
+- *[CopyToAsync](https://github.com/tommy-iasia/SplitLargeFile/blob/master/SplitLargeFile/Program.cs#L120)* copies stream with size limit
