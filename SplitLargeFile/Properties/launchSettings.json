@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SplitLargeFile": {
+      "commandName": "Project",
+      "commandLineArgs": "NetWarnLog.txt 100MB"
+    }
+  }
+}
