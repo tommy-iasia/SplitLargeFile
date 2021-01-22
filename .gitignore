@@ -1,3 +1,5 @@
 /.vs
 /SplitLargeFile/obj
 /SplitLargeFile/bin
+/SplitLargeFile/Properties/PublishProfiles/*.user
+/SplitLargeFile/*.user
